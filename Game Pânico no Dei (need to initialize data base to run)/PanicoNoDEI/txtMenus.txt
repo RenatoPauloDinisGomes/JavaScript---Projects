@@ -1,0 +1,43 @@
+1º
+LOGIN MENU
+	-User
+	-Pass
+	->MENU GAME(New User)/MENU GAME(User)
+2º
+MENU GAME
+
+New Game:
+	"Menu New Game"
+	-Difficulty
+	->Level 1/(BACK)MENU GAME
+Load Game:
+	"Menu Load Game"
+	-Difficulty
+	->Levels(unlocked(Selected)):
+		-Game(selected/level)
+		*->Rankings->Game(NextLevel)/(BACK)MENU GAME
+Help:
+	-Controls(assigned)
+	->(BACK)MENU GAME
+About:
+	-Credits(Authors)
+	-Tools(Programs)
+	->(BACK)MENU GAME
+Options:
+	"Menu Option"
+	-Controls(not assigned(standart))
+	-Sound
+	->(BACK)MENU GAME/(Save)MENU GAME
+Exit Menu:
+	->Login Menu(y/n)
+Exit Game:
+	->Exit Game(y/n)
+
+3º
+GAME(canvas)
+
+	-*Canvas(anim)
+	-*infos(Life,Weapon,UserName,Time,Score)
+	-Options
+	->(BACK)MENU GAME
+

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: arizonia;
+    src: url(arizonia.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: yagiza;
+    src: url(yagiza.ttf) format("truetype");
+}
+
+body{
+    text-align: center;
+    background: radial-gradient(at top, rgba(242,242,242,1) 0, rgba(20,60,86,1) 88%, rgba(20,60,86,1) 100%) fixed;
+    background-size: 100% 100%;
+}
+
+h1
+{
+    margin-top: 2%;
+    font-family: arizonia;
+    text-align: center;
+    border: none;
+    color: rgba(0,0,0,0.9);
+    text-overflow: clip;
+    font-size: 900%;
+    -webkit-user-select: none;
+}
+h1.deepshadow {
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #ffffff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+left
+{
+    text-align: center;
+    margin-top: 100%;
+}
+
+right video
+{
+    position: fixed; 
+    width: 25%;
+    height: 25%;
+    bottom: 5%;
+    right: 1%;
+}
+
+left button
+{
+    width: 40%;
+    outline: none;
+    background: linear-gradient(180deg, rgba(226,226,226,1) 0, rgba(48,87,112,1) 100%);
+}
+.animate
+{
+    transition: all 0.1s;
+}
+.action-button
+{
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 18px;
+    font-family: yagiza;
+    font-size: 200%;
+    color: #FFF;
+}
+.blue
+{
+    background-color: #3498DB;
+    border-bottom: 3px solid rgba(20,60,86,1);
+    text-shadow: 0px -2px rgba(20,60,86,1);
+}
+.action-button:active
+{
+    transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+.action-button:hover
+{
+    background: red;
+}
+
+button1
+{
+    outline: none;
+    background: linear-gradient(180deg, rgba(248,80,50,1) 0%, rgba(255,255,255,1) 0%, rgba(255,92,64,1) 51%, rgba(255,92,64,1) 51%, rgba(255,38,0,1) 68%, rgba(246,41,12,1) 100%);
+    position: fixed;
+    margin:0;
+    left: 2%;
+    bottom: 4%;
+}
+
+button1:hover
+{
+    background: red;
+}
